@@ -1,4 +1,4 @@
-package Seminar3;
+package Seminar3.hw1;
 
 public class Products {
     String name;
