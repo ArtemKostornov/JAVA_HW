@@ -18,14 +18,17 @@ public class Main {
                 }
             }
         }
+        List<String> nameList = new ArrayList<>();
+
         for (int i = 0; i < item.size(); i++) {
             if(item.get(i).sort.equals(searchSortItem)) {
                 if (lowCost == item.get(i).cost){
-                    System.out.println(item.get(i).name);
+                    nameList.add(item.get(i).name);
                 }
             }
 
         }
+        System.out.println(nameList);
     }
     public static ArrayList<Items> getItem(){
         ArrayList<Items> item = new ArrayList<Items>();
